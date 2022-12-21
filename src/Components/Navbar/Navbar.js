@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 
 export const Navbar = ({ handleThemeSwitch, theme }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -24,25 +25,28 @@ export const Navbar = ({ handleThemeSwitch, theme }) => {
                 <span className="border rounded-md py-1 px-3 text-black">Light 🌞</span>
               )}
             </button>
-            {/* <li>
-              <NavLink
-                to="/courses"
+
+            <li>
+              <HashLink
+                smooth
+                to="/#skills"
                 aria-label="Our product"
                 title="Our product"
                 className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
               >
-                Courses
-              </NavLink>
+                Skills
+              </HashLink>
             </li>
             <li>
-              <NavLink
-                to="/faq"
+              <HashLink
+                smooth
+                to="/#aboutme"
                 aria-label="Our product"
                 title="Our product"
                 className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
               >
-                FAQ
-              </NavLink>
+                About me
+              </HashLink>
             </li>
             <li>
               <NavLink
@@ -53,7 +57,18 @@ export const Navbar = ({ handleThemeSwitch, theme }) => {
               >
                 Blogs
               </NavLink>
-            </li> */}
+            </li>
+            <li>
+              <HashLink
+                smooth
+                to="/#contactme"
+                aria-label="Product pricing"
+                title="Product pricing"
+                className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
+              >
+                Contact me
+              </HashLink>
+            </li>
           </ul>
           {/* desktop menu end */}
 
@@ -103,38 +118,51 @@ export const Navbar = ({ handleThemeSwitch, theme }) => {
                     </div>
                   </div>
                   <nav>
-                    {/* <ul className="space-y-4">
+                    <ul className="space-y-4">
                       <li>
-                        <NavLink
-                          to="/courses"
+                        <HashLink
+                          smooth
+                          to="/#skills"
                           aria-label="Our product"
                           title="Our product"
-                          className="font-medium tracking-wide text-darkText transition-colors duration-200 hover:text-deep-purple-accent-400"
+                          className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
                         >
-                          Courses
-                        </NavLink>
+                          Skills
+                        </HashLink>
                       </li>
                       <li>
-                        <NavLink
-                          to="/faq"
+                        <HashLink
+                          smooth
+                          to="/#aboutme"
                           aria-label="Our product"
                           title="Our product"
-                          className="font-medium tracking-wide text-darkText transition-colors duration-200 hover:text-deep-purple-accent-400"
+                          className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
                         >
-                          FAQ
-                        </NavLink>
+                          About me
+                        </HashLink>
                       </li>
                       <li>
                         <NavLink
                           to="/blogs"
                           aria-label="Product pricing"
                           title="Product pricing"
-                          className="font-medium tracking-wide text-darkText transition-colors duration-200 hover:text-deep-purple-accent-400"
+                          className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
                         >
                           Blogs
                         </NavLink>
                       </li>
-                    </ul> */}
+                      <li>
+                        <HashLink
+                          smooth
+                          to="/#contactme"
+                          aria-label="Product pricing"
+                          title="Product pricing"
+                          className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
+                        >
+                          Contact me
+                        </HashLink>
+                      </li>
+                    </ul>
                   </nav>
                 </div>
               </div>

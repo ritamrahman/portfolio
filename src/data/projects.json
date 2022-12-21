@@ -2,9 +2,39 @@
   {
     "id": 1,
     "image": "https://c.imagescrap.org/2022/12/20/p2.png",
+    "screenshoots":[
+      "https://c.imagescrap.org/2022/12/21/p1.png","https://c.imagescrap.org/2022/12/21/p2.png","https://c.imagescrap.org/2022/12/21/p3.png"
+    ],
     "name": "Old Phone - Used phone resale site",
     "shortDes":
       "This is a Used Phone Resale Site. Here You can add your product. User can find others posted product.Role base access control.admin CRUD Feature",
+    "description":"This is a Used Phone Resale Site",
+    "features":[
+      "Here You can add your product.",
+      "You can find others posted product",
+      "Role base access control",
+      "admin CRUD Fearure",
+      "Modern UI",
+      "Very Responsive Design"
+    ],
+    "packages":[
+      "react-hot-toast",
+      "react-router-dom",
+      "react-helmet",
+      "react-photo-view"
+    ],
+    "framework":[
+      "reactjs",
+      "expressjs",
+      "mongodb",
+      "TailwindCss",
+      "DaisyUi",
+      "Mambaui"
+    ],
+    "database":[
+      "Firebase",
+      "Vercel"
+    ],
     "technology": ["reactjs", "expressjs", "mongodb","firebase", "tailwindcss","daisyui"],
     "ClientLink": "https://oldphone-6dbc7.web.app/",
     "serverLink": "https://old-phone.vercel.app/adproducts",
@@ -14,9 +44,39 @@
   {
     "id": 2,
     "image": "https://c.imagescrap.org/2022/12/20/p3.png",
+    "screenshoots":[
+      "https://c.imagescrap.org/2022/12/21/p12fad14d5edb0f904.png","https://c.imagescrap.org/2022/12/21/p2c3d93ecf786bca16.png","https://c.imagescrap.org/2022/12/21/p33dababe65656a1ae.png"
+    ],
     "name": "Food Spic — Cloud kitchen reviewing site",
     "shortDes":
-      "This is a Cloud Kitchen Reviewing Site. Here user can add her own kitchen. User can see others listed kitchen.User can submit review.",
+      "This is a Cloud Kitchen Reviewing Site. Here user can add her own kitchen. User can see others listed kitchen.User can submit review site ",
+      "description":"This is a Cloud Kitchen Reviewing Site.",
+    "features":[
+      "Here You can add your kitchen.",
+      "You can find others posted kitchen",
+      "user can review other product",
+      "admin CRUD Fearure",
+      "Modern UI",
+      "Very Responsive Design"
+    ],
+    "packages":[
+      "react-hot-toast",
+      "react-router-dom",
+      "react-helmet",
+      "react-photo-view"
+    ],
+    "framework":[
+      "reactjs",
+      "expressjs",
+      "mongodb",
+      "TailwindCss",
+      "DaisyUi",
+      "Mambaui"
+    ],
+    "database":[
+      "Firebase",
+      "Vercel"
+    ],
     "technology": ["reactjs", "expressjs", "mongodb","firebase", "tailwindcss","daisyui"],
     "ClientLink": "https://foodspic-21526.web.app/",
     "serverLink": "https://foodspic.vercel.app/topKitchens",
@@ -26,9 +86,31 @@
   {
     "id": 3,
     "image": "https://c.imagescrap.org/2022/12/20/p4.png",
+    "screenshoots":[
+      "https://c.imagescrap.org/2022/12/21/p178b61976831aeecf.png","https://c.imagescrap.org/2022/12/21/p277f2a157d62f5944.png","https://c.imagescrap.org/2022/12/21/p37c4518e1c70bfabd.png"
+    ],
     "name": "Tech Master - Simple Course Selling Site",
     "shortDes":
       "This is a simple Digital Course Selling Site. Simple React CRUD System Work Here  ",
+      "description":"Simple Course Selling Site",
+    "features":[
+      "Firebase Authentication system including social login Google & Github",
+      "The courses page shows all of the Courses and shows course details also based on the course id.",
+      "ReactJS, ContextAPI, Firebase"
+    ],
+    "packages":[
+      "react-hot-toast",
+      "react-router-dom",
+      "react-helmet"
+    ],
+    "framework":[
+      "TailwindCss",
+      "DaisyUi",
+      "Mambaui"
+    ],
+    "database":[
+      "Firebase"
+    ],
     "technology": ["reactjs","firebase", "tailwindcss","daisyui"],
     "ClientLink": "https://tech-master-5cbbb.web.app/",
     "clientCode": "https://github.com/ritamrahman/tech-master"
